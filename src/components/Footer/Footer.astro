@@ -1,0 +1,23 @@
+---
+import AvatarList from "./AvatarList.astro";
+type Props = {
+  path: string;
+};
+const { path } = Astro.props as Props;
+---
+
+<footer>
+  Réalisé par Aurélien Dos Santos. <a
+    href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a
+  >
+</footer>
+
+<style>
+  footer {
+    color: var(--theme-text);
+    text-align: center;
+    margin-top: auto;
+    padding: 2rem;
+    background-color: var(--theme-divider);
+  }
+</style>
