@@ -6,12 +6,10 @@ export const SITE = {
 
 export const OPEN_GRAPH = {
   image: {
-    src: "https://github.com/withastro/astro/blob/main/assets/social/banner-minimal.png?raw=true",
-    alt:
-      "astro logo on a starry expanse of space," +
-      " with a purple saturn-like planet floating in the right foreground",
+    src: "/default-og-image.png",
+    alt: "décor spatial étoilé avec des planètes",
   },
-  twitter: "astrodotbuild",
+  twitter: "Formation Game Design",
 };
 
 // This is the type of the frontmatter you put in the docs markdown files.
